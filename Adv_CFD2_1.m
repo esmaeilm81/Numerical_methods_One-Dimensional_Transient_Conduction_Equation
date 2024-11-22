@@ -35,11 +35,15 @@ for i=1:10000000
     phi_p=phi;
 end
 figure();
-plot(x',phi);
+plot(x',phi,'LineWidth',1.5);
+xlabel('X');
+ylabel('\phi');
 for i=1:length(error)
     T(i)=i*t;
 end
 figure();
-plot(T,error);
+plot(T,error,'LineWidth',1.5);
+xlabel('Time (s)');
+ylabel('Error');
 
 
