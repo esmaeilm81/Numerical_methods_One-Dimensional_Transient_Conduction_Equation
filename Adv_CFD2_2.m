@@ -5,7 +5,7 @@ close all;
 h=0.015625;
 N=(1/h)+1;
 alpha=1;
-v=1000000;
+v=10;
 t=v*h^2/alpha;
 tol=1e-9;
 maxit=N;
