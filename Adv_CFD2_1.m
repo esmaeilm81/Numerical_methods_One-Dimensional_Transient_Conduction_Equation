@@ -7,11 +7,8 @@ N=(1/h)+1;
 alpha=1;
 v=0.25;
 t=v*h^2/alpha;
-tol=1e-12;
-maxit=N;
 
 A=zeros(N,N);
-B=zeros(N,1);
 phi_p=zeros(N,1);
 phi_p(1)=1;
 phi_p(N)=0;
